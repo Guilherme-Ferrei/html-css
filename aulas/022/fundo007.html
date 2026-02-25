@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #container{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+
+
+            position: relative;
+            background-color: purple;
+            padding:10px;
+            height: 96vh;
+        }
+        #conteudo{ 
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            background-color:yellow ;
+
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
+            #conteudo2{ 
+            margin: auto;
+            position: absolute;
+            height: 200px;
+            width: 1000px;
+            background-color:rgb(13, 0, 255) ;
+
+            left: 50%;
+            top: 18%;
+            transform: translate(-50%,-50%);
+        }
+
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+            <h1></h1>
+
+        </article>
+        <article id="conteudo2">
+            <h1 style="margin: auto; text-align: center; color: white;">Valentina Moda Kids</h1>
+
+        </article>
+        <article id="conteudo3">
+
+
+        </article>
+    </section>
+</body>
+</html>
